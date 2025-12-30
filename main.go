@@ -12,4 +12,5 @@ func main() {
 	feature1.Feature1()
 	feature2.Feature2()
 	simple_connection.CheckConnection()
+	fmt.Println("test")
 }
