@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 	"study/feature1"
-	"study/feature1/feture_postgres/simple_connection"
 	"study/feature2"
+	"study/feature_postgres/simple_connection"
 )
 
 func main() {
