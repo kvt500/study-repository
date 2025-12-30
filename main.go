@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 	"study/feature1"
-	"study/feature1/feture_postgres/simple_connection"
 	"study/feature2"
+	"study/feature_postgres/simple_connection"
 )
 
 func main() {
@@ -12,4 +12,5 @@ func main() {
 	feature1.Feature1()
 	feature2.Feature2()
 	simple_connection.CheckConnection()
+	fmt.Println("test")
 }
